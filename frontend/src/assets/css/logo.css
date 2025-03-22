@@ -1,0 +1,6 @@
+div.logo-container {
+  min-width: 100px;
+  min-height: 100px;
+  padding: 10px;
+  text-align: center;
+}

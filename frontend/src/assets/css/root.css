@@ -14,5 +14,12 @@
   align-items: center;
   flex-direction: column;
   gap: 10;
+  background-color: var(--ess-background-color);
   /* background-color: red; */
+}
+
+:root {
+  --ess-background-color: #f6f6f6 !important;
+  --theme-color: rgb(5, 167, 167);
+  --z-index-max: 9999;
 }
