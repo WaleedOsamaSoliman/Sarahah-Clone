@@ -1,8 +1,9 @@
+import LoginPage from "./assets/pages/login.jsx";
 function App() {
   return (
     <>
       <div>
-        <h1>Hello World !</h1>
+        <LoginPage />
       </div>
     </>
   );
