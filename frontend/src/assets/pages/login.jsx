@@ -10,6 +10,7 @@ const buttonGroupStyle = {
   flexDirection: "column",
   padding: "10px",
   gap: 10,
+  marginTop: 100,
 };
 const buttonStyle = {
   width: "100%",
@@ -18,13 +19,13 @@ const buttonStyle = {
 export default function Login() {
   return (
     <>
-      <div className="login-container" style={{ backgroundColor: "white" }}>
+      <div className="login-container">
         <LOGO />
         <ButtonGroup style={buttonGroupStyle}>
           <Button appearance={"primary"} style={buttonStyle}>
             تسجيل الدخول
           </Button>
-          <Button appearance={"ghost"} style={buttonStyle}>
+          <Button color={"violet"} appearance={"ghost"} style={buttonStyle}>
             {" "}
             انشــاء حســاب
           </Button>

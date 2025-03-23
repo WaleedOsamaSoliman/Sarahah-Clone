@@ -1,5 +1,5 @@
 import "../css/logo.css";
-import logo from "../../imgs/logo_nav.png";
+import logo from "../imgs/logo_nav.png";
 import config from "../../config/settings.js";
 export default function LOGO() {
   return (

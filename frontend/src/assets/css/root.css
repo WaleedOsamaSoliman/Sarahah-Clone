@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "official_ar";
+  src: url("../fonts/El_Messiri/ElMessiri-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "official_en";
+  src: url(../fonts//Quicksand/Quicksand-VariableFont_wght.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +23,7 @@
   flex-direction: column;
   gap: 10;
   background-color: var(--ess-background-color);
+  font-family: "official_ar", "official_en";
   /* background-color: red; */
 }
 
