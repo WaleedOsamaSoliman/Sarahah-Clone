@@ -24,11 +24,16 @@
   gap: 10;
   background-color: var(--ess-background-color);
   font-family: "official_ar", "official_en";
+  overflow: "auto";
   /* background-color: red; */
 }
 
 :root {
-  --ess-background-color: #f6f6f6 !important;
+  --ess-background-color: #eff2f6 !important;
   --theme-color: rgb(5, 167, 167);
   --z-index-max: 9999;
+}
+
+.shadowbox-b-light {
+  box-shadow: rgba(0, 0, 0, 0.041) 0px 4px 12px;
 }

@@ -1,6 +1,5 @@
 import { Button, ButtonGroup } from "rsuite";
 import LOGO from "../components/logo";
-import Footer from "../components/footer";
 
 const buttonGroupStyle = {
   width: "400px",
@@ -31,7 +30,6 @@ export default function Login() {
           </Button>
         </ButtonGroup>
       </div>
-      <Footer />
     </>
   );
 }

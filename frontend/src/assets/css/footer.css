@@ -3,10 +3,8 @@ div.footer {
   min-height: 40px;
   background-color: var(--theme-color);
   padding: 10px 30px;
-  position: fixed;
-  bottom: 0;
+  position: relative;
   z-index: var(--z-index-max);
-  left: 0;
   display: flex;
   justify-content: center;
   align-items: center;

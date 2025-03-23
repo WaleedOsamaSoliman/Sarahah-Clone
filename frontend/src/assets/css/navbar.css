@@ -1,0 +1,17 @@
+nav#top-navbar {
+  position: relative;
+  width: 100%;
+  /* height: 50px; */
+  /* background-color: red; */
+  background-color: #fff;
+  padding: 5px 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  direction: rtl;
+}
+
+nav#top-navbar > img {
+  width: 100px;
+}
