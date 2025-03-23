@@ -2,13 +2,13 @@ div.footer {
   width: 100%;
   min-height: 40px;
   background-color: var(--theme-color);
-  padding: 10px 30px;
+  padding: 20px 30px;
   position: relative;
   z-index: var(--z-index-max);
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   flex-direction: column;
 }
 
